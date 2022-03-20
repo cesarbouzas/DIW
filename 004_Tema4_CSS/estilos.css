@@ -1,0 +1,108 @@
+div {
+    width: 500px;
+    height: 200 px;
+    padding: 1%;
+}
+
+div {
+    border-top: dotted;
+    border-bottom: dashed;
+    border-left: none;
+    border-right: hidden;
+    border-color: black;
+    border-width: 30 px;
+}
+
+h1 {
+    width: fit-content;
+    padding: 3%;
+    border-color: violet;
+    border-top-width: 20px;
+    border-right-width: 10px;
+    border-bottom-width: 60px;
+    border-left-width: 30px;
+    border-top: inset;
+    border-right: outset;
+    border-bottom: groove;
+    border-left: ridge;
+}
+
+
+/* decendente */
+
+li em {
+    background-color: black;
+    width: fit-content;
+    color: red;
+}
+
+li>ol {
+    background-color: white;
+    color: rgb(67, 20, 220);
+}
+
+li ol ol {
+    color: white;
+}
+
+ol+ol {
+    background-color: black;
+}
+
+h1#encabezado1 {
+    background-color: pink;
+}
+
+.negrilla {
+    color: greenyellow;
+    font-style: bold;
+}
+
+a:link {
+    padding: 0px;
+    margin-bottom: 50px;
+    background-color: white;
+    width: fit-content;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: orange
+}
+
+input:focus {
+    background-color: yellow;
+    color: red;
+}
+
+label {
+    margin-right: 10px;
+}
+
+div>div {
+    background-color: blue;
+    border: solid black;
+}
+
+p {
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+p:first-letter {
+    font-size: 110px;
+    font-weight: 700;
+    font-family: serif;
+    color: tomato;
+    font-variant: small-caps;
+}
+
+body {
+    background-image: url(..\220320_Foto_360\foto.jpg);
+}
+
+;
